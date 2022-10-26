@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+/* Início dos comandos para a página Home */
+
+.ulHome{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.home {
+
+    background-image: url(./resources/papainoel-1600.jpg);
+    cursor: url(./resources/cursorgelo.cur), default;
+
+    min-height: 100%;
+
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+
+.liHome:hover{
+
+    transform: scale(1.1); 
+    transition: 0.3s;
+    background-color: red;
+
+}
+
+
+#timer-text {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: whitesmoke;
+    font-size: x-large;
+    
+    
+    padding: 3px;
+    list-style: none;
+    border:1px solid whitesmoke;
+    border-radius: 20px;
+
+}
+
+
+#timer-text:hover {
+
+    background-color: red;
+
+}
+
+#timer{
+
+    display: flex;
+    justify-content: space-around;
+    transition: 0.1s;
+   
+}
+
+
+#timer:hover{
+
+    transform: scale(1.1); 
+    transition: 0.1s;
+   
+}
+
+
+
+
+
+
+.footer-home{
+
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(180, 192, 170);
+    color: #FFF;
+    width: 100%;
+       
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+/* Final dos comandos para a página Home */
+
+
+
+/* Início dos comandos para a página Origem */
+
+.origem {
+
+    background-image: url(resources/desenhonatal-1600.jpg);
+    color: whitesmoke;
+    cursor: url(./resources/cursorgelo.cur), default;
+
+}
+
+
+.borda-origem{
+
+    height: 400px;
+    width: 330px;
+    padding: 7px;
+    list-style: none;
+    border:1px solid whitesmoke;
+    border-radius: 20px;
+   
+}
+
+.h2-origem{
+
+    text-decoration: underline;
+}
+
+/* Final dos comandos para a página Origem */
+
+
+
+/* Início dos comandos para a página Significado */
+
+.significado {
+
+    background-image: url(resources/fundomadeiraps-1600.jpg);
+    color: whitesmoke;
+    cursor: url(./resources/cursorgelo.cur), default;
+
+}
+
+/* Final dos comandos para a página Significado */
+
+
+
+/* Início dos comandos para a página Contos */
+
+.contos {
+
+    background-image: url(./resources/cidade-1600.jpg);
+    color: whitesmoke;
+    
+}
+
+.fa {
+    transform: scale(1.5);
+}
+
+/* Final dos comandos para a página Contos */
+
+
+
+/* Classes usandas na página Home e nas respectivas páginas (Origem, Significado e Contos.) */
+
+.li-menu {
+    transition: 0.3s;
+}
+
+.li-menu:hover{
+
+    transform: scale(1.1); 
+    transition: 0.3s;
+    background-color: red;
+
+}
+
+
+
+/* Pra todos */
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+li {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-variant-caps: all-small-caps;
+    color: whitesmoke;
+
+    *margin: 6; padding: 7px;
+    list-style:none;
+    border:1px solid whitesmoke;
+    
+    position:relative;
+    border-right:1px solid whitesmoke;
+    border-radius: 20px;
+
+}
+
+ul {
+
+    display: flex;
+}
+
+.fa-home:hover {
+
+    transform: scale(2.1); 
+    transition: 0.3s;
+    
+}
+
+.fa-home{
+
+    transition: 0.3s;
+    position:relative;
+
+}
