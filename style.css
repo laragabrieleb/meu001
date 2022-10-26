@@ -44,17 +44,12 @@
     
     padding: 3px;
     list-style: none;
-    border:1px solid whitesmoke;
-    border-radius: 20px;
-
+    
+   
 }
 
 
-#timer-text:hover {
 
-    background-color: red;
-
-}
 
 #timer{
 
@@ -197,10 +192,6 @@ li {
 
 }
 
-ul {
-
-    display: flex;
-}
 
 .fa-home:hover {
 
