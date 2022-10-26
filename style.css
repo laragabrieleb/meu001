@@ -5,7 +5,7 @@
 .ulHome{
    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -54,7 +54,7 @@
 #timer{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     transition: 0.1s;
    
 }
@@ -62,7 +62,7 @@
 
 #timer:hover{
 
-    transform: scale(1.1); 
+    transform: scale(0.9); 
     transition: 0.1s;
    
 }
@@ -72,17 +72,48 @@
 
 
 
-.footer-home{
+footer{
 
     position: absolute;
     bottom: 0;
     background-color: rgb(180, 192, 170);
     color: #FFF;
     width: 100%;
-       
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    
     line-height: 50px;
+    
+
 }
+
+.link-icon-insta{
+
+    width: 50px;
+    
+}
+
+.icone-insta{
+
+    transform: scale(2.5) !important;
+}
+
+
+.link-icon-github{
+
+    width: 50px;
+
+    
+}
+
+.icone-github{
+
+    transform: scale(2.5) !important;
+
+}
+
+
+
 
 
 
@@ -98,8 +129,18 @@
     color: whitesmoke;
     cursor: url(./resources/cursorgelo.cur), default;
 
+    min-height: 100%;
+
+    padding: 0;
+    margin: 0;
+
 }
 
+.h1-origem{
+
+    margin: 20px;
+    
+}
 
 .borda-origem{
 
@@ -107,13 +148,15 @@
     width: 330px;
     padding: 7px;
     list-style: none;
-    border:1px solid whitesmoke;
+    margin: 20px;
+    background-color: #0000008a;
     border-radius: 20px;
    
 }
 
 .h2-origem{
 
+    text-align: center;
     text-decoration: underline;
 }
 
@@ -129,6 +172,11 @@
     color: whitesmoke;
     cursor: url(./resources/cursorgelo.cur), default;
 
+    min-height: 100%;
+
+    padding: 0;
+    margin: 0;
+
 }
 
 /* Final dos comandos para a página Significado */
@@ -141,6 +189,11 @@
 
     background-image: url(./resources/cidade-1600.jpg);
     color: whitesmoke;
+
+    min-height: 100%;
+
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -169,6 +222,13 @@
 
 
 /* Pra todos */
+
+.audio-jingle{
+    
+    display: flex;
+    justify-content: space-evenly;
+
+}
 
 a {
     text-decoration: none !important;
