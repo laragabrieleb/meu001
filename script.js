@@ -28,12 +28,12 @@
         text = document.createTextNode(`Feliz Natal !`);
     }
 
-    //O que fazer se o natal já tiver passado nesse ano ? (os dias faltantes ficariam negativos até que o ano virasse, enquanto o ano não vira, o que faremos ???)
-
-    //dica: caso isso ocorra, os dias restantes para o natal ficam negativos, então...
+    
     
     span.appendChild(text);
 
     }
 
+
+   
 
